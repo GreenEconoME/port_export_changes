@@ -41,6 +41,7 @@ if old_upload is not None and new_upload is not None:
             "Loading Old Report": "Pending",
             "Loading New Report": "Pending",
             **{sheet: "Pending" for sheet in sheets_to_compare},
+            "Generating Download": "Pending"
         }
 
         # Create a placeholder for progress updates
