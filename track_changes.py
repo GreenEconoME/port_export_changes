@@ -90,5 +90,5 @@ if old_upload is not None and new_upload is not None:
             )
 
             # set generating export to completed
-            st.session_state["sheet_status"]["Generating Export"] = "Completed"
+            st.session_state["sheet_status"]["Generating Download"] = "Completed"
             progress_placeholder.markdown(display_progress_list(st.session_state["sheet_status"]))
