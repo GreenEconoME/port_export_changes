@@ -1,5 +1,5 @@
 openpyxl==3.0.10
 pandas==1.5.3
-Pillow==11.1.0
-Requests==2.32.3
+pillow==10.4.0
+requests==2.32.3
 streamlit==1.21.0
